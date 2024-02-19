@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ae9df6;
+}
+
+.container{
+    background-color: #ffffff;
+    width: 90vmin; 
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute; 
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow:0 20px 40px rgba(38, 33, 61, 0.2);
+    
+}
+
+
+#serachBox{
+    display: flex;
+    justify-content: space-around;
+}
+
+ #inp{
+   position: absolute;
+    /* height: 100px; */
+    width: 150px;
+    font-size: 20px;
+    top: 20%;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid  #c9c1ec; 
+}
+
+#search-btn{
+    position: absolute;
+    height: 40px;
+    width: 80px;
+    margin-left: 280px;
+    margin-top: -50px;
+    font-size: 20px;
+    background-color: #c9c1ec;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    
+}
+
+.result{
+    position: relative;
+
+}
+
+.result h3{
+    font-size: 30px;
+    color:black;
+}
+
+.result .word{
+   display: flex;
+   margin-top: 40px;
+}
+
+
+strong{
+    color: rgb(15, 15, 15);;
+
+}
+
+
+.detailes{
+    margin-top: 10px;
+}
+
+p{
+    color:rgb(99, 93, 93);
+    /* margin-top:10px; */
+}
+
+
+
+.word-meaning{
+    margin-top: 10px;
+}
